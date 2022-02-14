@@ -1,0 +1,63 @@
+ /* Parte de Galerias de fotos */
+
+.contenedor-galeria {
+   background-color:#36649C;
+}
+
+.galeria {
+   margin-top: 10rem;
+   margin-bottom: 15rem;
+}
+
+.imagen {
+   width: 509px;
+   height: 636px;
+}
+
+.texto1 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+   color: #fff;
+   padding: 0rem 4rem 0rem 4rem;
+}
+
+.boton-galeria {
+   margin-left: 4rem;
+   margin-top: 1.5rem;
+   height: 65px;
+   width: 306px;
+   background-color: #ffffff;
+   border: 1px solid transparent;
+   border-radius: 1.5rem;
+   align-items: center;
+   color: #36649C;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 27px;
+   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+}
+
+.modal-dialog {
+   max-width: 90rem !important;
+}
+
+.modal-body {
+   padding: 5rem !important;
+}
+
+.modal-content {
+   background-color: #36649C !important;
+}
+
+.titulo-cuadro {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 36px;
+   color: #ffffff;
+}
+
+.texto-cuadro {
+   font-family: 'Montserrat', sans-serif;
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+}

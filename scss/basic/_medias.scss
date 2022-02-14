@@ -1,0 +1,134 @@
+/* Medias */
+
+@media only screen and (max-width: 1200px) {
+    .col-xl-6 {
+        align-items: center;
+    }
+
+    .modal-body {
+        padding: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .col-lg-6 {
+        align-items: center;
+    }
+
+    .col-lg-12 {
+        align-items: center;
+    }
+
+    .modal-body {
+        padding: 1rem !important;
+    }
+
+    .texto1 {
+        margin-top: 1rem;
+    }
+
+    .media1 {
+        order: 2;
+    }
+
+    .media2 {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .tituloPrincipal {
+        font-size: 30px;
+        padding-top: 1rem;
+    }
+
+    .tituloGrande {
+        font-size: 40px;
+    }
+
+    .link {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    .boton-galeria {
+        height: 48px;
+        width: 152px;
+        font-size: 17px;
+        margin-left: 0rem;
+        align-self: center;
+    }
+
+    .texto {
+        font-size: 15px;
+    }
+
+    .col-sm-12 {
+        align-items: center !important;
+    }
+
+    .galeria {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .modal-body {
+        padding-top: 1rem !important;
+    }
+
+    .media1 {
+        order: 2;
+    }
+
+    .media2 {
+        order: 1;
+    }
+
+    .titulo-cuadro {
+        font-size: 16px;
+    }
+
+    .texto-cuadro {
+        font-size: 15px;
+    }
+
+    .imagen {
+        width: 207px;
+        height: 259px;
+    }
+
+    .texto1 {
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+
+    .tituloNombre {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .tituloTexto {
+        font-size: 15px;
+    }
+
+    .imagenGuada img {
+        width: 50%;
+    }
+
+    .footerBlanco {
+        height: 114px;
+    }
+
+    .footerRedes, a {
+        margin-bottom: 0rem;
+        font-size: 18px;
+        padding: 0rem;
+    }
+}

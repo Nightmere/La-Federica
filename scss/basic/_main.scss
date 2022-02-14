@@ -1,0 +1,77 @@
+
+ /* Parte de Bienvenido */
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.link {
+    align-items: baseline !important;
+}
+
+.tituloPrincipal {
+        font-family: 'Indie Flower', cursive;
+        color: rgb(255, 255, 255);
+        font-size: 80px;
+        text-align: left;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+.tituloGrande {
+        font-family: 'Indie Flower', cursive;
+        color: rgb(255, 255, 255);
+        font-size: 200px;
+        text-align:left;
+        padding-left: 10px;
+    }
+
+.texto {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        text-align: center;
+        margin-top: 5rem;
+        padding: 100px;
+        padding-top: 25px;
+        padding-bottom: 100px;
+    }
+
+.tituloNombre {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 36px;
+        text-align: left;
+        padding-top: 25px;
+    }
+
+.tituloTexto {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: normal;
+        font-size: 36px;
+        text-align: left;
+        padding-top: 25px;
+    }
+
+.imagenGuada {
+    align-items: center;
+    padding-top: -350px;
+}
+
+.contenedor-quien {
+    background-color:#36649C;
+}
+
+.conejo {
+    background-image: url("../img/conejo.png");
+    width: 1900px;
+    height: 150px;
+    float: right;
+    padding-top: -350px;
+}

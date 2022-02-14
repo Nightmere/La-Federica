@@ -1,0 +1,19 @@
+ /* Parte de fondo e colores */
+
+* {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    background-image: url("../img/fondotextura1.png");
+    background: {
+        size: cover;
+        repeat: no-repeat;
+        attachment: fixed;
+        position: center;
+    }
+}
