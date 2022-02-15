@@ -31,6 +31,10 @@ body {
   padding: 10px;
 }
 
+.conejo {
+  display: none;
+}
+
 .link {
   -webkit-box-align: baseline !important;
       -ms-flex-align: baseline !important;
@@ -94,14 +98,6 @@ body {
   background-color: #36649C;
 }
 
-.conejo {
-  background-image: url("../img/conejo.png");
-  width: 1900px;
-  height: 150px;
-  float: right;
-  padding-top: -350px;
-}
-
 /* Parte de Galerias de fotos */
 .contenedor-galeria {
   background-color: #36649C;
@@ -152,6 +148,10 @@ body {
 
 .modal-content {
   background-color: #36649C !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
 }
 
 .titulo-cuadro {
@@ -228,6 +228,20 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    background-image: url("../img/fondotextura.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .conejo {
+    display: inline-block;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 80%;
+  }
   .logo {
     font-size: 30px;
   }

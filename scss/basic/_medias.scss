@@ -38,6 +38,22 @@
 
 @media only screen and (max-width: 768px) {
 
+    body {
+        background-image: url("../img/fondotextura.png");
+        background: {
+            size: cover;
+            repeat: no-repeat;
+            attachment: fixed;
+            position: center;
+        }
+    }
+
+    .conejo {
+        display: inline-block;
+        align-self: center;
+        width: 80%;
+    }
+
     .logo {
         font-size: 30px;
     }

@@ -9,6 +9,10 @@
     padding: 10px;
 }
 
+.conejo {
+    display: none;
+}
+
 .link {
     align-items: baseline !important;
 }
@@ -66,12 +70,4 @@
 
 .contenedor-quien {
     background-color:#36649C;
-}
-
-.conejo {
-    background-image: url("../img/conejo.png");
-    width: 1900px;
-    height: 150px;
-    float: right;
-    padding-top: -350px;
 }
