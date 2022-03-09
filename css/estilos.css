@@ -2,25 +2,16 @@
 * {
   margin: 0;
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+  flex-direction: column;
+  justify-content: center; }
 
 body {
   background-image: url("../img/fondotextura1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-}
+  background-position: center; }
 
 /* Parte de Bienvenido */
 .logo {
@@ -28,18 +19,13 @@ body {
   color: white;
   font-size: 50px;
   text-align: center;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .conejo {
-  display: none;
-}
+  display: none; }
 
 .link {
-  -webkit-box-align: baseline !important;
-      -ms-flex-align: baseline !important;
-          align-items: baseline !important;
-}
+  align-items: baseline !important; }
 
 .tituloPrincipal {
   font-family: 'Indie Flower', cursive;
@@ -47,16 +33,14 @@ body {
   font-size: 80px;
   text-align: left;
   padding-top: 80px;
-  padding-left: 10px;
-}
+  padding-left: 10px; }
 
 .tituloGrande {
   font-family: 'Indie Flower', cursive;
   color: white;
   font-size: 200px;
   text-align: left;
-  padding-left: 10px;
-}
+  padding-left: 10px; }
 
 .texto {
   font-family: 'Montserrat', sans-serif;
@@ -66,8 +50,7 @@ body {
   margin-top: 5rem;
   padding: 100px;
   padding-top: 25px;
-  padding-bottom: 100px;
-}
+  padding-bottom: 100px; }
 
 .tituloNombre {
   font-family: 'Montserrat', sans-serif;
@@ -75,8 +58,7 @@ body {
   font-weight: bold;
   font-size: 36px;
   text-align: left;
-  padding-top: 25px;
-}
+  padding-top: 25px; }
 
 .tituloTexto {
   font-family: 'Montserrat', sans-serif;
@@ -84,41 +66,32 @@ body {
   font-weight: normal;
   font-size: 36px;
   text-align: left;
-  padding-top: 25px;
-}
+  padding-top: 25px; }
 
 .imagenGuada {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: -350px;
-}
+  align-items: center;
+  padding-top: -350px; }
 
 .contenedor-quien {
-  background-color: #36649C;
-}
+  background-color: #36649C; }
 
 /* Parte de Galerias de fotos */
 .contenedor-galeria {
-  background-color: #36649C;
-}
+  background-color: #36649C; }
 
 .galeria {
   margin-top: 10rem;
-  margin-bottom: 15rem;
-}
+  margin-bottom: 15rem; }
 
 .imagen {
   width: 509px;
-  height: 636px;
-}
+  height: 636px; }
 
 .texto1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   color: #fff;
-  padding: 0rem 4rem 0rem 4rem;
-}
+  padding: 0rem 4rem 0rem 4rem; }
 
 .boton-galeria {
   margin-left: 4rem;
@@ -128,208 +101,129 @@ body {
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 1.5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   color: #36649C;
   font-family: 'Montserrat', sans-serif;
   font-size: 27px;
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
-}
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3); }
 
 .modal-dialog {
-  max-width: 90rem !important;
-}
+  max-width: 90rem !important; }
 
 .modal-body {
-  padding: 5rem !important;
-}
+  padding: 5rem !important; }
 
 .modal-content {
-  background-color: #36649C !important;
-}
+  background-color: #36649C !important; }
 
 .modal-header {
-  border-bottom: none !important;
-}
+  border-bottom: none !important; }
 
 .titulo-cuadro {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .texto-cuadro {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: 400;
-  line-height: 30px;
-}
+  line-height: 30px; }
 
 /* Parte de Footer */
 .footerBlanco {
   background-color: #fcfcfc;
-  height: 250px;
-}
+  height: 250px; }
 
 .footerRedes, a {
   text-decoration: none !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
   font-family: 'Indie Flower', cursive;
   color: #36649c !important;
   font-size: 48px;
-  padding-top: 20px;
-}
+  padding-top: 20px; }
 
 /* Medias */
 @media only screen and (max-width: 1200px) {
   .col-xl-6 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+    align-items: center; }
   .modal-body {
-    padding: 2rem !important;
-  }
-}
+    padding: 2rem !important; } }
 
 @media only screen and (max-width: 992px) {
   .col-lg-6 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+    align-items: center; }
   .col-lg-12 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+    align-items: center; }
   .modal-body {
-    padding: 1rem !important;
-  }
+    padding: 1rem !important; }
   .texto1 {
-    margin-top: 1rem;
-  }
+    margin-top: 1rem; }
   .media1 {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
+    order: 2; }
   .media2 {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-}
+    order: 1; } }
 
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url("../img/fondotextura.png");
+    background-image: url("../img/fondotextura2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
-  }
-  .conejo {
-    display: inline-block;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    width: 80%;
-  }
+    background-position: center; }
   .logo {
-    font-size: 30px;
-  }
+    font-size: 30px; }
   .tituloPrincipal {
     font-size: 30px;
-    padding-top: 1rem;
-  }
+    padding-top: 1rem; }
   .tituloGrande {
-    font-size: 40px;
-  }
+    font-size: 40px; }
   .link {
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-  }
+    justify-content: center !important;
+    align-items: center !important; }
   .boton-galeria {
     height: 48px;
     width: 152px;
     font-size: 17px;
     margin-left: 0rem;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
+    align-self: center; }
   .texto {
-    font-size: 15px;
-  }
+    font-size: 15px; }
   .col-sm-12 {
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-  }
+    align-items: center !important; }
   .galeria {
     margin-top: 5rem;
     margin-bottom: 5rem;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-  }
+    justify-content: center !important;
+    align-items: center !important; }
   .modal-body {
-    padding-top: 1rem !important;
-  }
+    padding-top: 1rem !important; }
   .media1 {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
+    order: 2; }
   .media2 {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-  }
+    order: 1; }
   .titulo-cuadro {
-    font-size: 16px;
-  }
+    font-size: 16px; }
   .texto-cuadro {
-    font-size: 15px;
-  }
+    font-size: 15px; }
   .imagen {
     width: 207px;
-    height: 259px;
-  }
+    height: 259px; }
   .texto1 {
     margin-top: 1rem;
-    font-size: 12px;
-  }
+    font-size: 12px; }
   .tituloNombre {
     font-weight: bold;
-    font-size: 16px;
-  }
+    font-size: 16px; }
   .tituloTexto {
-    font-size: 15px;
-  }
+    font-size: 15px; }
   .imagenGuada img {
-    width: 50%;
-  }
+    width: 50%; }
   .footerBlanco {
-    height: 114px;
-  }
+    height: 114px; }
   .footerRedes, a {
     margin-bottom: 0rem;
     font-size: 18px;
-    padding: 0rem;
-  }
-}
+    padding: 0rem; } }
